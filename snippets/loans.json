@@ -3,7 +3,7 @@
     {
       "id": 1,
       "amount": 5000,
-      "status": "paid",
+      "status": "",
       "owner": "Jane"
     },
     {
@@ -75,7 +75,7 @@
     {
       "id": 13,
       "amount": 5030,
-      "status": "unpaid",
+      "status": "",
       "owner": "Nyambura"
     },
     {

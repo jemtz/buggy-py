@@ -5,7 +5,6 @@ from snippets import (
     calculate_unpaid_loans,
     calculate_paid_loans,
     average_paid_loans,
-    arr,
 )
 
 if __name__ == "__main__":
@@ -13,9 +12,8 @@ if __name__ == "__main__":
       
       
         json_file = read_file()
-        # print(json_file)
-        assert len(json_file.get("loans")) == 15, "Number of loans should equal 15"
-        assert (
+        assert len(json_file.get("loans")) == 17, "Number of loans should equal 15"
+        asert (
             calculate_unpaid_loans(json_file) == 11062
         ), "Total unpaid loans should equal 11062"
         assert (

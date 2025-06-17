@@ -7,5 +7,5 @@ can be misused
 
 def arr(bar=[]):
     bar = []
-    bar.append("baz")
+    bar.apend("baz")
     return bar

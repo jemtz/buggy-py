@@ -7,7 +7,7 @@ from json import load
 
 
 def read_file():
-    with open("buggy-py\snippets\loans.json", "r") as json_file:
+    with open("snippets/loans.json", "r") as json_file:
         data = load(json_file)
         return data
 
