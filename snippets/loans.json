@@ -3,7 +3,7 @@
     {
       "id": 1,
       "amount": 5000,
-      "status": "",
+      "status": "paid",
       "owner": "Jane"
     },
     {
@@ -15,7 +15,7 @@
     {
       "id": 3,
       "amount": 1000,
-      "status": "paid",
+      "status": "paid_aproved",
       "owner": "Nad"
     },
     {
@@ -50,7 +50,7 @@
     },
     {
       "id": 9,
-      "amount": 5000,
+      "amount": "5000",
       "status": "paid",
       "owner": "Maslah"
     },
@@ -75,7 +75,7 @@
     {
       "id": 13,
       "amount": 5030,
-      "status": "",
+      "status": "unpaid",
       "owner": "Nyambura"
     },
     {
@@ -87,7 +87,7 @@
     {
       "id": 14,
       "amount": 532,
-      "status": "unpaid",
+      "status": "unnpaid",
       "owner": "Mohini"
     }
   ]

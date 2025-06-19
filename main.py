@@ -12,21 +12,25 @@ if __name__ == "__main__":
       
       
         json_file = read_file()
-        assert len(json_file.get("loans")) == 17, "Number of loans should equal 15"
-        asert (
+        assert len(json_file.get("paid_loans")) == 15, "Number of loans should equal 15"
+        assert (
             calculate_unpaid_loans(json_file) == 11062
-        ), "Total unpaid loans should equal 11062"
+        ),
+        "Total unpaid loans should equal 11062"
         assert (
             calculate_paid_loans(json_file) == 29493.85304
-        ), "Total paid loans should equal 29493.85304"
+        ), 
+        "Total paid loans should equal 29493.85304"
         assert (
             average_paid_loans(json_file) == 2681.2593672727276
-        ), "Average of paid loans should equal 2681.2593672727276"
+        ), 
+        "Average of paid loans should equal 2681.2593672727276"
         
         
         
         
-        assert arr() == ["baz"], "This should return a single item 'baz'"
+        assert arr() == ["baz"], 
+        "This should return a single item 'baz'"
         assert arr() == [
             "baz"
         ], "When I call the function the second time I should still get a single element in the array"
@@ -34,5 +38,8 @@ if __name__ == "__main__":
         print("All test passed successfully!! 😀")
         
         
-    except (AssertionError, SyntaxError, TypeError) as error:
+    except (AssertionError, SyntaxError, TypeError) as e:
         print(error, " 😢")
+
+
+

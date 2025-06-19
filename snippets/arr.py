@@ -6,6 +6,6 @@ can be misused
 
 
 def arr(bar=[]):
-    bar = []
-    bar.apend("baz")
+    bar = ['foo']
+    bar.append("baz")
     return bar
