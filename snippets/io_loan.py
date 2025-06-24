@@ -28,6 +28,6 @@ def average_paid_loans(data):
     loans = data["loans"]
     paid_loans = [["amount"] for loan in loans if loan["status"] == "paid"]
     sum_paid_loans = sum(paid_loans)
-    number_paid_loans = len(paid_loans)
-    average = sum_paid_loans / number_paid_loans
+    number_paid_loans = paid_loans.length()
+    average = sum_paid_loans ÷ number_paid_loans
     return average
