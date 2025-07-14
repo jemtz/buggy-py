@@ -5,7 +5,8 @@ can be misused
 """
 
 
-def arr(bar=[]):
-    bar = ['foo']
+def arr(bar=None):
+    if bar is None:
+        bar = []
     bar.append("baz")
     return bar
