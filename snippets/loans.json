@@ -2,7 +2,7 @@
   "loans": [
     {
       "id": 1,
-      "amount": 5000,
+      "amount": "5000",
       "status": "paid",
       "owner": "Jane"
     },
@@ -85,7 +85,7 @@
       "owner": "Percila"
     },
     {
-      "id": 14,
+      "id": 15,
       "amount": 532,
       "status": "unnpaid",
       "owner": "Mohini"
